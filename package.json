@@ -20,6 +20,14 @@
       "pre-commit": "yarn lint"
     }
   },
+  "standard-version": {
+    "types": [
+      { "type":"feat","section":"Features" },
+      { "type":"fix","section":"Bug Fixes" },
+      { "type":"refactor","section":"Code Refactoring" },
+      { "type":"chore","section":"Chore" }
+    ]
+  },
   "dependencies": {
     "fs-extra": "8.1.0",
     "tailwindcss": "1.1.4"
