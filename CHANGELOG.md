@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/exreplay/averjs-tailwind/compare/v1.0.1...v1.1.0) (2020-01-15)
+
+
+### Features
+
+* added `defaultExtractor` option parameter ([2e21296](https://github.com/exreplay/averjs-tailwind/commit/2e21296f0578d0356956da149c3a454b7dd9fec3))
+
+
+### Chore
+
+* **deps:** update all non-major dependencies ([#4](https://github.com/exreplay/averjs-tailwind/issues/4)) ([4e1248d](https://github.com/exreplay/averjs-tailwind/commit/4e1248de76e7951b599fe95100908fa567e08a99))
+
 ### [1.0.1](https://github.com/exreplay/averjs-tailwind/compare/v1.0.0...v1.0.1) (2019-11-30)
 
 
