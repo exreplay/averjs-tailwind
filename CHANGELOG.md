@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* update dependency tailwindcss to v1.2.0 ([#8](https://github.com/exreplay/averjs-tailwind/issues/8)) ([3322e7d](https://github.com/exreplay/averjs-tailwind/commit/3322e7d1da8506ded23f7d1c7aa01ac1d0d16354))
+* update tailwindcss to v1.2.0 ([#8](https://github.com/exreplay/averjs-tailwind/issues/8)) ([3322e7d](https://github.com/exreplay/averjs-tailwind/commit/3322e7d1da8506ded23f7d1c7aa01ac1d0d16354))
 
 
 ### Chore
@@ -15,7 +15,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **deps:** update all non-major dependencies ([#5](https://github.com/exreplay/averjs-tailwind/issues/5)) ([58133da](https://github.com/exreplay/averjs-tailwind/commit/58133daa3d5852f8f760e89754d773ed2a23d8cc))
 * **deps:** update dependency eslint-plugin-node to v11 ([#6](https://github.com/exreplay/averjs-tailwind/issues/6)) ([1e567f2](https://github.com/exreplay/averjs-tailwind/commit/1e567f27e94753d752cd73448847bffe9ffb54de))
 * **deps:** update dependency husky to v4 ([#7](https://github.com/exreplay/averjs-tailwind/issues/7)) ([ed490f0](https://github.com/exreplay/averjs-tailwind/commit/ed490f008ef6f8d6498c1a3dfa40a49ce177cf52))
-* **deps:** update dependency tailwindcss to v1.2.0 ([#8](https://github.com/exreplay/averjs-tailwind/issues/8)) ([223b671](https://github.com/exreplay/averjs-tailwind/commit/223b671ed766fb869410e1dd7b90484c46a0d9c9))
 
 ## [1.1.0](https://github.com/exreplay/averjs-tailwind/compare/v1.0.1...v1.1.0) (2020-01-15)
 
