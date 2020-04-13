@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/exreplay/averjs-tailwind/compare/v1.2.0...v1.3.0) (2020-04-13)
+
+
+### Features
+
+* added `configPath` option ([6432ea9](https://github.com/exreplay/averjs-tailwind/commit/6432ea93d6b249e3e19b5e9feeac08a00f1a1aa5))
+
 ## [1.2.0](https://github.com/exreplay/averjs-tailwind/compare/v1.1.0...v1.2.0) (2020-02-05)
 
 
