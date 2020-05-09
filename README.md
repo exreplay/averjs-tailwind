@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://www.npmjs.com/package/@averjs/tailwind"><img src="https://badgen.net/npm/v/@averjs/tailwind?icon=npm" alt="Version"></a>
     <img src="https://img.shields.io/npm/dm/@averjs/tailwind.svg" alt="Downloads"></a>
-    <a href="https://circleci.com/gh/exreplay/averjs-tailwind"><img src="https://badgen.net/circleci/github/exreplay/averjs-tailwind?icon=circleci" alt="CircleCi"></a>
+    <a href="https://circleci.com/gh/exreplay/averjs-tailwind"><img src="https://circleci.com/gh/exreplay/averjs-tailwind.svg?style=shield" alt="CircleCi"></a>
     <a href="https://codecov.io/gh/exreplay/averjs-tailwind"><img src="https://codecov.io/gh/exreplay/averjs-tailwind/branch/development/graph/badge.svg" alt="Codecov"></a>
 </p>
 
