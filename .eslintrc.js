@@ -1,12 +1,16 @@
 module.exports = {
   env: {
     browser: true,
-    node: true
+    node: true,
+    'jest/globals': true
   },
   extends: [
     'standard',
     'plugin:import/errors',
     'plugin:import/warnings'
+  ],
+  plugins: [
+    'jest'
   ],
   rules: {
     'import/no-unresolved': 0,
