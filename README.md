@@ -1,5 +1,12 @@
 # @averjs/tailwind
 
+<p align="center">
+    <a href="https://www.npmjs.com/package/@averjs/tailwind"><img src="https://badgen.net/npm/v/@averjs/tailwind?icon=npm" alt="Version"></a>
+    <img src="https://img.shields.io/npm/dm/@averjs/tailwind.svg" alt="Downloads"></a>
+    <a href="https://circleci.com/gh/exreplay/averjs-tailwind"><img src="https://badgen.net/circleci/github/exreplay/averjs-tailwind?icon=circleci" alt="CircleCi"></a>
+    <a href="https://codecov.io/gh/exreplay/averjs-tailwind"><img src="https://codecov.io/gh/exreplay/averjs-tailwind/branch/development/graph/badge.svg" alt="Codecov"></a>
+</p>
+
 This Plugin gets you started with tailwind. It adds `tailwind` as `postcss` plugin, changes the `process-env` stage to `1` and adds the right configuration for `PurgeCSS`.
 
 ## Installation
