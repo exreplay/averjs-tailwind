@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * resolve config ([#13](https://github.com/exreplay/averjs-tailwind/issues/13)) ([8526547](https://github.com/exreplay/averjs-tailwind/commit/8526547e30b707b1bdcf45c61460809e0e432b8a))
+* updated tailwindcss to v1.4.6 ([#14](https://github.com/exreplay/averjs-tailwind/issues/14)) ([d4e838c](https://github.com/exreplay/averjs-tailwind/commit/d4e838c68546b14268717ab913488385260b1985))
 
 
 ### Chore
@@ -17,7 +18,6 @@ All notable changes to this project will be documented in this file. See [standa
 * **deps:** update dependency eslint to v7 ([#15](https://github.com/exreplay/averjs-tailwind/issues/15)) ([b4bcfca](https://github.com/exreplay/averjs-tailwind/commit/b4bcfcabe1365673e4fbd51928277a013b7d965f))
 * **deps:** update dependency fs-extra to v9 ([#11](https://github.com/exreplay/averjs-tailwind/issues/11)) ([17e62a2](https://github.com/exreplay/averjs-tailwind/commit/17e62a28bfe93e9bebb5de1ba198121950019d31))
 * **deps:** update dependency standard-version to v8 ([#12](https://github.com/exreplay/averjs-tailwind/issues/12)) ([48ef7b5](https://github.com/exreplay/averjs-tailwind/commit/48ef7b52a1e359a59a4ca592e4acb326711a7237))
-* **deps:** update dependency tailwindcss to v1.4.6 ([#14](https://github.com/exreplay/averjs-tailwind/issues/14)) ([d4e838c](https://github.com/exreplay/averjs-tailwind/commit/d4e838c68546b14268717ab913488385260b1985))
 
 ## [1.3.0](https://github.com/exreplay/averjs-tailwind/compare/v1.2.0...v1.3.0) (2020-04-13)
 
