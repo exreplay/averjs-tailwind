@@ -51,19 +51,6 @@ By setting this param to `true`, the creation of the `tailwind.config.js` and `t
 
 Change the path where the `tailwind.css` file should be created.
 
-### `defaultExtractor`
-
-- Type: `function`
-- Default
-```js
-content => {
-  const contentWithoutStyleBlocks = content.replace(/<style[^]+?<\/style>/gi, '');
-  return contentWithoutStyleBlocks.match(/[A-Za-z0-9-_/:!]*[A-Za-z0-9-_/]+/g) || [];
-}
-```
-
-Change the default extractor for `purgecss`. 
-
 ### `configPath`
 
 - Type: `string`
