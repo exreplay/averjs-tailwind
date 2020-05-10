@@ -1,6 +1,6 @@
 {
   "name": "@averjs/tailwind",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "tailwind plugin for averjs",
   "main": "lib/index.js",
   "repository": "https://github.com/exreplay/averjs-tailwind.git",
