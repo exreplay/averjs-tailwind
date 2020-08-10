@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/exreplay/averjs-tailwind/compare/v2.0.1...v2.1.0) (2020-08-10)
+
+
+### Bug Fixes
+
+* check if cache dir exists and create it if not ([436a7bd](https://github.com/exreplay/averjs-tailwind/commit/436a7bd0674c961a70696fb55d6751438fe49add))
+
+
+### Chore
+
+* **deps:** update all non-major dependencies ([#19](https://github.com/exreplay/averjs-tailwind/issues/19)) ([918791b](https://github.com/exreplay/averjs-tailwind/commit/918791b041dc50313a0c5454cc78def6d6308874))
+* **deps:** update dependency codecov to v3.7.1 [security] ([#26](https://github.com/exreplay/averjs-tailwind/issues/26)) ([d03df4f](https://github.com/exreplay/averjs-tailwind/commit/d03df4f6e023cae398328abf834bfac702500616))
+* **deps:** update dependency commitlint to v9 ([#21](https://github.com/exreplay/averjs-tailwind/issues/21)) ([04a4702](https://github.com/exreplay/averjs-tailwind/commit/04a47027a2161793fdcd51376aa0da4ef2640fc0))
+* **deps:** update dependency lodash to v4.17.19 [security] ([#27](https://github.com/exreplay/averjs-tailwind/issues/27)) ([67162b2](https://github.com/exreplay/averjs-tailwind/commit/67162b2f5887b965a9a5e600d0fc475dca256ac4))
+* **deps:** update dependency standard-version to v8.0.1 [security] ([#22](https://github.com/exreplay/averjs-tailwind/issues/22)) ([846bb10](https://github.com/exreplay/averjs-tailwind/commit/846bb10472972769d172ba8a2e1aac0a6ea7234c))
+
 ### [2.0.1](https://github.com/exreplay/averjs-tailwind/compare/v2.0.0...v2.0.1) (2020-05-10)
 
 ## [2.0.0](https://github.com/exreplay/averjs-tailwind/compare/v1.3.0...v2.0.0) (2020-05-10)
