@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [2.1.0](https://github.com/exreplay/averjs-tailwind/compare/v2.0.1...v2.1.0) (2020-08-10)
 
+### Features
+
+* upgraded `tailwindcss` to version 1.6.2
 
 ### Bug Fixes
 
