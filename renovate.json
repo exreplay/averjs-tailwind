@@ -4,11 +4,5 @@
     "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
-  "packageRules": [
-    {
-      "packagePatterns": ["^tailwind"],
-      "groupName": "tailwind"
-    }
-  ],
   "rangeStrategy": "pin"
 }
