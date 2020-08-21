@@ -5,13 +5,14 @@
   ],
   "packageRules": [
     {
-      "packagePatterns": ["tailwindcss"],
+      "packageNames": ["tailwindcss"],
       "groupName": "tailwind"
     },
     {
       "packagePatterns": [
         "*"
       ],
+      "excludePackageNames": ["tailwindcss"],
       "minor": {
         "groupName": "all non-major dependencies",
         "groupSlug": "all-minor-patch"
