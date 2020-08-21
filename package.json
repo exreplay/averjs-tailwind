@@ -43,16 +43,16 @@
   },
   "dependencies": {
     "fs-extra": "9.0.1",
-    "lodash": "4.17.19",
-    "tailwindcss": "1.6.2"
+    "lodash": "4.17.20",
+    "tailwindcss": "1.7.3"
   },
   "devDependencies": {
-    "@babel/core": "7.11.1",
+    "@babel/core": "7.11.4",
     "@babel/preset-env": "7.11.0",
-    "babel-jest": "26.2.2",
+    "babel-jest": "26.3.0",
     "codecov": "3.7.2",
-    "commitlint": "9.1.0",
-    "eslint": "7.6.0",
+    "commitlint": "9.1.2",
+    "eslint": "7.7.0",
     "eslint-config-standard": "14.1.1",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jest": "23.20.0",
@@ -60,7 +60,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "husky": "4.2.5",
-    "jest": "26.2.2",
+    "jest": "26.4.1",
     "standard-version": "8.0.2"
   }
 }
