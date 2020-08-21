@@ -1,13 +1,21 @@
 {
   "extends": [
     "config:base",
-    "group:allNonMajor",
     ":semanticCommitTypeAll(chore)"
   ],
   "packageRules": [
     {
       "packagePatterns": ["tailwindcss"],
       "groupName": "tailwind"
+    },
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "minor": {
+        "groupName": "all non-major dependencies",
+        "groupSlug": "all-minor-patch"
+      }
     }
   ],
   "rangeStrategy": "pin"
