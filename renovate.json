@@ -6,7 +6,7 @@
   ],
   "packageRules": [
     {
-      "packagePatterns": ["^tailwindcss"],
+      "packagePatterns": ["tailwindcss"],
       "groupName": "tailwind"
     }
   ],
