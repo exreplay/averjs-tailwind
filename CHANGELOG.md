@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/exreplay/averjs-tailwind/compare/v2.1.0...v2.2.0) (2020-08-21)
+
+
+### Features
+
+* update tailwindcss to v1.7.3 ([#36](https://github.com/exreplay/averjs-tailwind/issues/36)) ([209a1d8](https://github.com/exreplay/averjs-tailwind/commit/209a1d894174c5cd6c61eab1980b3ae0c4b1760e))
+
+
+### Chore
+
+* **deps:** update dependency standard-version to v9 ([#30](https://github.com/exreplay/averjs-tailwind/issues/30)) ([1f8a113](https://github.com/exreplay/averjs-tailwind/commit/1f8a1134554366721ba062ed04a1a5dd4fbc7665))
+* added tailwind group to renovate config ([#34](https://github.com/exreplay/averjs-tailwind/issues/34)) ([155fef4](https://github.com/exreplay/averjs-tailwind/commit/155fef4411b305f9d4f5847cb1bf702ff625592a))
+* update all non-major dependencies ([#35](https://github.com/exreplay/averjs-tailwind/issues/35)) ([f109d7c](https://github.com/exreplay/averjs-tailwind/commit/f109d7c7f55f4ae2bd753d389e3f7599c4c6d276))
+
 ## [2.1.0](https://github.com/exreplay/averjs-tailwind/compare/v2.0.1...v2.1.0) (2020-08-10)
 
 ### Features
