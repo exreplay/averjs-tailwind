@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/exreplay/averjs-tailwind/compare/v2.2.0...v2.3.0) (2020-09-05)
+
+
+### Features
+
+* updated tailwindcss to v1.8.2 ([#38](https://github.com/exreplay/averjs-tailwind/issues/38)) ([897e97d](https://github.com/exreplay/averjs-tailwind/commit/897e97df5574c5af8edec61ae00639d0cbc4dd48))
+
+
+### Chore
+
+* **deps:** update all non-major dependencies ([#37](https://github.com/exreplay/averjs-tailwind/issues/37)) ([c64fafb](https://github.com/exreplay/averjs-tailwind/commit/c64fafbd12a0e39bdf11a73e3dfc0df8e6e7becc))
+* **deps:** update dependency eslint-plugin-jest to v24 ([#39](https://github.com/exreplay/averjs-tailwind/issues/39)) ([5a297c8](https://github.com/exreplay/averjs-tailwind/commit/5a297c872cddd6427693aa3cced5bd776059268c))
+
 ## [2.2.0](https://github.com/exreplay/averjs-tailwind/compare/v2.1.0...v2.2.0) (2020-08-21)
 
 
