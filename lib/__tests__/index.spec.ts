@@ -1,14 +1,16 @@
-import { emptyDir, exists, writeFile, readFile } from 'fs-extra';
+import { emptyDir, writeFile, readFile, existsSync } from 'fs-extra';
 import path from 'path';
 import plugin from '../index';
 
 describe('tailwind plugin', () => {
   process.env.PROJECT_PATH = path.resolve(__dirname, '../__fixtures__/src');
   const cacheDir = path.resolve(__dirname, '../__fixtures__/.cache');
-  let mockThis = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let mockThis: any = null;
 
   beforeEach(() => {
-    const config = {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const config: any = {
       cacheDir,
       webpack: {
         alias: {},
@@ -42,8 +44,8 @@ describe('tailwind plugin', () => {
 
     await plugin.call(mockThis);
 
-    expect(await exists(cssPath)).toBeTruthy();
-    expect(await exists(configPath)).toBeTruthy();
+    expect(existsSync(cssPath)).toBeTruthy();
+    expect(existsSync(configPath)).toBeTruthy();
 
     // modify content of both files and confirm that they are not overwritten by calling the plugin again
     await writeFile(cssPath, cssContent);
@@ -61,8 +63,8 @@ describe('tailwind plugin', () => {
 
     await plugin.call(mockThis, { skipCreation: true });
 
-    expect(await exists(cssPath)).toBeFalsy();
-    expect(await exists(configPath)).toBeFalsy();
+    expect(existsSync(cssPath)).toBeFalsy();
+    expect(existsSync(configPath)).toBeFalsy();
   });
 
   test('should use the cssPath in creation when passed', async() => {
@@ -71,7 +73,7 @@ describe('tailwind plugin', () => {
 
     await plugin.call(mockThis, { cssPath });
 
-    expect(await exists(newCssPath)).toBeTruthy();
+    expect(existsSync(newCssPath)).toBeTruthy();
   });
 
   test('should use different config path and pass it to tailwindcss postcss plugin', async() => {
@@ -81,13 +83,13 @@ describe('tailwind plugin', () => {
 
     await plugin.call(mockThis, { configPath });
 
-    expect(await exists(newConfigPath)).toBeTruthy();
+    expect(existsSync(newConfigPath)).toBeTruthy();
   });
 
   test('should update postcss config correctly', async() => {
     mockThis.config.webpack.postcss = {};
     await plugin.call(mockThis);
-    expect(mockThis.config.webpack.postcss.plugins.tailwindcss).toBe('tailwind.config.js');
+    expect(mockThis.config.webpack.postcss.plugins?.tailwindcss).toBe('tailwind.config.js');
     expect(mockThis.config.webpack.postcss.preset).toEqual({ stage: 1 });
   });
 
@@ -98,7 +100,7 @@ describe('tailwind plugin', () => {
     expect(mockThis.config.webpack.alias).toEqual({
       '@tailwind.config.json': configPath
     });
-    expect(await exists(configPath)).toBeTruthy();
+    expect(existsSync(configPath)).toBeTruthy();
   });
 
   test('should only extract the given path, write it into json file and add alias', async() => {
@@ -108,7 +110,7 @@ describe('tailwind plugin', () => {
     expect(mockThis.config.webpack.alias).toEqual({
       '@tailwind.theme.colors.json': configPath
     });
-    expect(await exists(configPath)).toBeTruthy();
+    expect(existsSync(configPath)).toBeTruthy();
   });
 
   test('should extract all the given paths, write them into json files and add aliases', async() => {
@@ -120,7 +122,7 @@ describe('tailwind plugin', () => {
       '@tailwind.theme.colors.json': colorsPath,
       '@tailwind.theme.fontSize.json': fontSizePath
     });
-    expect(await exists(colorsPath)).toBeTruthy();
-    expect(await exists(fontSizePath)).toBeTruthy();
+    expect(existsSync(colorsPath)).toBeTruthy();
+    expect(existsSync(fontSizePath)).toBeTruthy();
   });
 });

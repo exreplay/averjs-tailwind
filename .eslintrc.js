@@ -1,18 +1,17 @@
 module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    'jest/globals': true
-  },
+  parser: '@typescript-eslint/parser',
   extends: [
     'standard',
     'plugin:import/errors',
-    'plugin:import/warnings'
+    'plugin:import/warnings',
+    'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
-    'jest'
+    '@typescript-eslint'
   ],
   rules: {
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    
     'import/no-unresolved': 0,
 
     'array-bracket-spacing': [ 'error', 'always' ],
