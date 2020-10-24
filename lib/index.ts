@@ -40,7 +40,7 @@ const plugin: PluginFunction = async function(options: TailwindPluginOptions = {
     configPath = 'tailwind.config.js',
     resolveConfig = false
   } = options;
-  const templatesPath = resolve(process.env.NODE_ENV === 'test' ? '' : require.resolve('@averjs/tailwind'), './templates');
+  const templatesPath = resolve(process.env.NODE_ENV === 'test' ? '' : require.resolve('@averjs/tailwind/package.json'), '../templates');
   
   const cacheDir = this.aver.config.cacheDir;
 
