@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.1](https://github.com/exreplay/averjs-tailwind/compare/v2.4.0...v2.4.1) (2020-10-24)
+
+
+### Bug Fixes
+
+* fixed templates path ([67b8daf](https://github.com/exreplay/averjs-tailwind/commit/67b8dafab251023a7d3e84b77c85f506a9a7c6f6))
+
 ## [2.4.0](https://github.com/exreplay/averjs-tailwind/compare/v2.3.1...v2.4.0) (2020-10-24)
 
 
