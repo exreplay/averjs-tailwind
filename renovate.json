@@ -19,5 +19,8 @@
       }
     }
   ],
-  "rangeStrategy": "pin"
+  "rangeStrategy": "bump",
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
