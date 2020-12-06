@@ -1,6 +1,6 @@
 {
   "name": "@averjs/tailwind",
-  "version": "2.4.1",
+  "version": "3.0.0",
   "description": "tailwind plugin for averjs",
   "main": "dist/cjs/index.js",
   "types": "dist/types/index.d.ts",

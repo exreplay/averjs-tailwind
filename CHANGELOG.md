@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/exreplay/averjs-tailwind/compare/v2.4.1...v3.0.0) (2020-12-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* update tailwindcss to v2 (#52)
+
+### Features
+
+* update tailwindcss to v2 ([#52](https://github.com/exreplay/averjs-tailwind/issues/52)) ([d7533c4](https://github.com/exreplay/averjs-tailwind/commit/d7533c48327c371af8f157240133f64760688eee))
+
+
+### Chore
+
+* **deps:** update all non-major dependencies ([#50](https://github.com/exreplay/averjs-tailwind/issues/50)) ([9a9bb9a](https://github.com/exreplay/averjs-tailwind/commit/9a9bb9af73c4433040931d04cce4b327bccb7411))
+* change rangeStrategy to bump ([cbbed02](https://github.com/exreplay/averjs-tailwind/commit/cbbed02be8f14cb552255c38ad8a92344d7ae94b))
+* update circleci config ([#54](https://github.com/exreplay/averjs-tailwind/issues/54)) ([d217292](https://github.com/exreplay/averjs-tailwind/commit/d2172929201b24ba6497923fdeb39de89f53a0aa))
+* **deps:** update dependency eslint-config-standard to v16 ([#51](https://github.com/exreplay/averjs-tailwind/issues/51)) ([98a5693](https://github.com/exreplay/averjs-tailwind/commit/98a5693dd86dbc58f4dc7ceb2964f1af6f244717))
+
 ### [2.4.1](https://github.com/exreplay/averjs-tailwind/compare/v2.4.0...v2.4.1) (2020-10-24)
 
 
