@@ -1,17 +1,60 @@
 version: 2.1
-orbs:
-  node: circleci/node@1.1.6
+
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node:latest
+
 jobs:
-  build-and-test:
-    executor:
-      name: node/default
+  install:
+    <<: *defaults
     steps:
       - checkout
-      - node/with-cache:
-          steps:
-            - run: yarn install
-            - run: yarn test
+      - restore_cache:
+          keys:
+            - v1-averjs-tailwind-{{ checksum "package.json" }}
+      - run: yarn install
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-averjs-tailwind-{{ checksum "package.json" }}
+      - persist_to_workspace:
+          root: ~/
+          paths:
+            - repo
+
+  lint: 
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run: yarn lint
+  
+  build: 
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run: yarn build
+  
+  test: 
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/
+      - run: yarn test
+
 workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+  version: 2.1
+  test:
+    jobs:
+      - install
+      - lint:
+          requires:
+            - install
+      - build:
+          requires:
+            - install
+      - test:
+          requires:
+            - install
