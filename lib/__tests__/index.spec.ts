@@ -37,6 +37,8 @@ describe('tailwind plugin', () => {
   });
 
   test('should create but not overwrite template files', async() => {
+    if (!process.env.PROJECT_PATH) return;
+
     const cssPath = path.resolve(process.env.PROJECT_PATH, './tailwind.css');
     const configPath = path.resolve(process.env.PROJECT_PATH, '../tailwind.config.js');
     const cssContent = 'tailwind.css';
@@ -58,6 +60,8 @@ describe('tailwind plugin', () => {
   });
 
   test('should not create files when "skipCreation" is set to true', async() => {
+    if (!process.env.PROJECT_PATH) return;
+  
     const cssPath = path.resolve(process.env.PROJECT_PATH, './tailwind.css');
     const configPath = path.resolve(process.env.PROJECT_PATH, '../tailwind.config.js');
 
@@ -68,6 +72,8 @@ describe('tailwind plugin', () => {
   });
 
   test('should use the cssPath in creation when passed', async() => {
+    if (!process.env.PROJECT_PATH) return;
+
     const cssPath = './new-path';
     const newCssPath = path.resolve(process.env.PROJECT_PATH, cssPath, './tailwind.css');
 
@@ -77,6 +83,8 @@ describe('tailwind plugin', () => {
   });
 
   test('should use different config path and pass it to tailwindcss postcss plugin', async() => {
+    if (!process.env.PROJECT_PATH) return;
+  
     const configPath = './tailwind.config.ts';
     const newConfigPath = path.resolve(process.env.PROJECT_PATH, '../tailwind.config.ts');
     writeFile(newConfigPath, '');
