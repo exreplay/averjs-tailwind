@@ -45,7 +45,7 @@
   "dependencies": {
     "fs-extra": "^9.0.1",
     "lodash": "^4.17.20",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "@averjs/core": "^2.3.4",
