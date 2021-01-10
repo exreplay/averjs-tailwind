@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/exreplay/averjs-tailwind/compare/v3.0.0...v3.0.1) (2021-01-10)
+
+
+### Bug Fixes
+
+* fixed typings ([#61](https://github.com/exreplay/averjs-tailwind/issues/61)) ([6069a9e](https://github.com/exreplay/averjs-tailwind/commit/6069a9eb45f84fd70c97c4d803e7442a85a17423))
+
+
+### Chore
+
+* **deps:** bump axios from 0.21.0 to 0.21.1 ([#60](https://github.com/exreplay/averjs-tailwind/issues/60)) ([601d526](https://github.com/exreplay/averjs-tailwind/commit/601d526882902c3649d3debd447fe582f8942b21))
+* **deps:** bump ini from 1.3.5 to 1.3.8 ([#58](https://github.com/exreplay/averjs-tailwind/issues/58)) ([fd091ce](https://github.com/exreplay/averjs-tailwind/commit/fd091ce25006a18d3ef25b11ee945117438149ef))
+* **deps:** bump node-notifier from 8.0.0 to 8.0.1 ([#59](https://github.com/exreplay/averjs-tailwind/issues/59)) ([4844dc7](https://github.com/exreplay/averjs-tailwind/commit/4844dc7ecdb4f5aae6826b838cd91ed8a1075f1b))
+* **deps:** lock file maintenance ([#55](https://github.com/exreplay/averjs-tailwind/issues/55)) ([545bc9e](https://github.com/exreplay/averjs-tailwind/commit/545bc9ee21e300406114dda66adf8d6790bbf66a))
+* **deps:** update all non-major dependencies ([#56](https://github.com/exreplay/averjs-tailwind/issues/56)) ([fc0cc9c](https://github.com/exreplay/averjs-tailwind/commit/fc0cc9c031dd06d7ffa20fd88287c12457afd52d))
+* **deps:** update dependency tailwindcss to ^2.0.2 ([#57](https://github.com/exreplay/averjs-tailwind/issues/57)) ([2944578](https://github.com/exreplay/averjs-tailwind/commit/29445789b3f4dd6ac2ab61e365c0fbbf0670ec17))
+
 ## [3.0.0](https://github.com/exreplay/averjs-tailwind/compare/v2.4.1...v3.0.0) (2020-12-06)
 
 
