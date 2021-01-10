@@ -2,7 +2,7 @@ import { copy, writeJSONSync, mkdirpSync, existsSync } from 'fs-extra';
 import { resolve } from 'path';
 import get from 'lodash/get';
 import tailwind from 'tailwindcss/resolveConfig';
-import { PluginFunction } from '@averjs/core/dist/plugins';
+import { PluginFunction } from '@averjs/core';
 
 export interface TailwindPluginOptions {
   /**
@@ -34,6 +34,8 @@ export interface TailwindPluginOptions {
 }
 
 const plugin: PluginFunction = async function(options: TailwindPluginOptions = {}) {
+  if (!this.config.webpack?.postcss || !process.env.PROJECT_PATH) return;
+  
   const {
     skipCreation = false,
     cssPath = './',
@@ -43,8 +45,6 @@ const plugin: PluginFunction = async function(options: TailwindPluginOptions = {
   const templatesPath = resolve(process.env.NODE_ENV === 'test' ? 'package.json' : require.resolve('@averjs/tailwind/package.json'), '../templates');
   
   const cacheDir = this.aver.config.cacheDir;
-
-  if (!this.config.webpack.postcss) return;
 
   if (!skipCreation) {
     if (!existsSync(resolve(process.env.PROJECT_PATH, cssPath, 'tailwind.css'))) {
@@ -80,7 +80,7 @@ const plugin: PluginFunction = async function(options: TailwindPluginOptions = {
           get(config, path)
         );
 
-        if (this.aver.config.webpack.alias) this.aver.config.webpack.alias[`@${fileName}`] = filePath;
+        if (this.aver.config.webpack?.alias) this.aver.config.webpack.alias[`@${fileName}`] = filePath;
       }
     } else if (typeof resolveConfig === 'string') {
       const fileName = `tailwind.${resolveConfig}.json`;
@@ -91,7 +91,7 @@ const plugin: PluginFunction = async function(options: TailwindPluginOptions = {
         get(config, resolveConfig)
       );
 
-      if (this.aver.config.webpack.alias) this.aver.config.webpack.alias[`@${fileName}`] = filePath;
+      if (this.aver.config.webpack?.alias) this.aver.config.webpack.alias[`@${fileName}`] = filePath;
     } else {
       const filePath = resolve(cacheDir, './tailwind.config.json');
       
@@ -100,7 +100,7 @@ const plugin: PluginFunction = async function(options: TailwindPluginOptions = {
         config
       );
 
-      if (this.aver.config.webpack.alias) this.aver.config.webpack.alias['@tailwind.config.json'] = filePath;
+      if (this.aver.config.webpack?.alias) this.aver.config.webpack.alias['@tailwind.config.json'] = filePath;
     }
   }
 
