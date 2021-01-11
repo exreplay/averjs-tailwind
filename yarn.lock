@@ -2,39 +2,39 @@
 # yarn lockfile v1
 
 
-"@averjs/builder@2.4.6":
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/@averjs/builder/-/builder-2.4.6.tgz#fb161a82578e7df23e21feedc8935095650ec1ad"
-  integrity sha512-fVNHCKtNAzswtgNAbTmU5FT1ekBZz+3HGlX12uZflbtPpTWcKb5Ya2oIlUpb2mwiPNh7AUsC3BcO+KRMsjlNzA==
+"@averjs/builder@2.4.7":
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/@averjs/builder/-/builder-2.4.7.tgz#79673b70e49a11f169a1d51dce615c4246701137"
+  integrity sha512-bC4R1RpqKS4rynDfUnId6lUG/ZufQfPXVV2ynDCD7rafjA4dffnGi+f0NuzuoxgCKRPXrsa+LY+cM20aWvgOog==
   dependencies:
-    "@averjs/config" "2.4.6"
+    "@averjs/config" "2.4.7"
     html-minifier "^4.0.0"
     lru-cache "^6.0.0"
     vue-server-renderer "^2.6.12"
 
-"@averjs/cli@2.4.6":
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/@averjs/cli/-/cli-2.4.6.tgz#f4a8139b2b63e6a10997cf780754c11102984066"
-  integrity sha512-ADMc7XI822ri3bapmFRnvERsya7/xsIBDZoZjCyZcPA6tZd3/JeHPlW026+1HY73WH4r0DmIQQBgBbktLHkEkg==
+"@averjs/cli@2.4.7":
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/@averjs/cli/-/cli-2.4.7.tgz#96ea362fc2d49d51eea8c3eccf0195a0ab5b0f4b"
+  integrity sha512-1Ev3zqijVyGdzoD45r8uKQyoCx53wDn3XIWhYxbfOLQpdOK7GHw+9af9evLhoI94ZfhDzp9Zj6iBZmijCLpaIQ==
   dependencies:
-    "@averjs/core" "2.4.6"
-    "@averjs/init" "2.4.6"
+    "@averjs/core" "2.4.7"
+    "@averjs/init" "2.4.7"
     command-line-usage "^6.1.1"
     minimist "^1.2.5"
 
-"@averjs/config@2.4.6":
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/@averjs/config/-/config-2.4.6.tgz#b3654085d58ba5c13d7e57608d4d14add60b46ed"
-  integrity sha512-zzMHFkXwuSvoC3GsMvRgt29ZHy4l7TRjE9f4HhICo5OznozC4/oEcL/HkwRY9l9eFcpxj2Y7t1E7GmMwSMfgDA==
+"@averjs/config@2.4.7":
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/@averjs/config/-/config-2.4.7.tgz#f3d0aa7dbe2ca015a6a0e60c4da6b2e7a023d571"
+  integrity sha512-8rO7JPmofec0wnfJpVYIwZrn8zZYw5ho/oQuUQ/Q1vsl4xXqpQTJFjDGJA2ln5u2VTIZQHQu1mhhkrXSk2J1bg==
 
-"@averjs/core@2.4.6", "@averjs/core@^2.4.6":
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/@averjs/core/-/core-2.4.6.tgz#d192fe1c695dff60eb25c675c1a31c34577ee8af"
-  integrity sha512-NUVoaY/7xwnzD5eqdSISGmrvqv1yJqsIrjmg6p+hJLrWL6E0aENbsKbwsgXyrwX/aafy5boYFdmaYUV1JOLhNA==
+"@averjs/core@2.4.7", "@averjs/core@^2.4.6":
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/@averjs/core/-/core-2.4.7.tgz#8f2e7d20e06df070c297854b877df7b8ecdaab93"
+  integrity sha512-4nvbfRrM0eDyOfYV6gWfwp9xlZ1gzBYvAWbBCMb0WA+Dtjpgo5ZOFz70IgMltHNxMXD6lFw6JPFEYu+2n+5x1A==
   dependencies:
-    "@averjs/builder" "2.4.6"
-    "@averjs/cli" "2.4.6"
-    "@averjs/config" "2.4.6"
+    "@averjs/builder" "2.4.7"
+    "@averjs/cli" "2.4.7"
+    "@averjs/config" "2.4.7"
     "@averjs/vuex-decorators" "^3.3.0"
     "@babel/runtime" "^7.12.5"
     "@babel/runtime-corejs2" "^7.12.5"
@@ -65,7 +65,7 @@
     vue "^2.6.12"
     vue-class-component "^7.2.6"
     vue-client-only "^2.0.0"
-    vue-i18n "^8.22.2"
+    vue-i18n "^8.22.3"
     vue-meta "^2.4.0"
     vue-progressbar "^0.7.5"
     vue-property-decorator "^9.1.2"
@@ -76,10 +76,10 @@
     vuex-router-sync "^5.0.0"
     xss-filters "^1.2.7"
 
-"@averjs/init@2.4.6":
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/@averjs/init/-/init-2.4.6.tgz#916514de102828999240d8346713802f9631624a"
-  integrity sha512-lTSSEBzLceEWYQt9iwHxfGNoUCCte9bKyLoHI5GNMGqUI3EY0Zm7KYq3BH2eBV8o8xTFJLSDgEkwtvcQhXd7Yw==
+"@averjs/init@2.4.7":
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/@averjs/init/-/init-2.4.7.tgz#2075b3c731706c378a88f31a0af65e1752eb7559"
+  integrity sha512-CrxQdQeYX1Gp/sk18DD0D4bB2E5d1g5YQo8j+M/zR0GIFQ0KJjUue6HQLba0oeYQ5kSctI6Mptei1IfV508Egw==
 
 "@averjs/vuex-decorators@^3.3.0":
   version "3.3.0"
@@ -1358,9 +1358,9 @@ bcrypt-pbkdf@^1.0.0:
     tweetnacl "^0.14.3"
 
 binary-extensions@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.1.0.tgz#30fa40c9e7fe07dbc895678cd287024dea241dd9"
-  integrity sha512-1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
+  integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
 bl@^4.0.3:
   version "4.0.3"
@@ -7063,7 +7063,7 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
-vue-i18n@^8.22.2:
+vue-i18n@^8.22.3:
   version "8.22.3"
   resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.22.3.tgz#4ac0fdc3e71d4fe188938c40a9ffca32cde60732"
   integrity sha512-Vhyx7sZEmmW/aZLkzSlXei08Rv3hTondx4J9wbOjnThocTIK1QiXV6QRdT4BTnhT24JixDSf6kGkxqCXSaJ3Jw==
