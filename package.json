@@ -48,7 +48,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "@averjs/core": "^2.4.6",
+    "@averjs/core": "^3.1.0",
     "@types/fs-extra": "^9.0.6",
     "@types/lodash": "^4.14.167",
     "@typescript-eslint/eslint-plugin": "^4.12.0",
